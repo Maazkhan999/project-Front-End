@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.main{
+    background-color:rgba(128, 128, 128, 0.596);
+   /* background-image: url(./pexels-photo-325229.webp); */
+   background-size: cover;
+    background-repeat: no-repeat;
+    width: 40% !important;
+    margin-top: 200px !important;
+    padding: 15PX 45PX;
+    text-align: center;
+    justify-content: center;
+    border-radius: 40PX;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin:auto;
+    
+}
+.container h1{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-style:oblique;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 10px;
+
+}
+.container h1::after{
+    display: block;
+    content: '';
+    margin-top: 10px;
+    border-bottom: 2px solid #00000050;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+    
+     
+}
+
+.main-para{
+    font-size: 14px;
+    font-family: Ubuntu;
+    color: #fff;
+    line-height: 20px;
+    margin:20px 50px;
+}
+.btn{
+    padding: 15PX 30PX !important;
+    font-family:Ubuntu!important;
+    font-weight: 600 !important;
+    width: 350PX;
+   
+   
+}
+.btn-brand{
+    color: #000 !important;
+    background-color: white !important;
+    border-color: white !important;
+    
+    
+
+}
+
+.btn-brand:hover{
+    background-color:rgba(0, 0, 0, 0.912) !important;
+    color: #fff !important;
+   
+
+}
+.login-page{
+    width:700px;
+    margin: auto;
+    margin-top: 200px;
+    background-color:rgba(128, 128, 128, 0.596);
+    padding:30PX 45PX; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 50px;
+
+}
+
+.table-list{
+    width:700px;
+    margin: auto;
+    margin-top: 200px;
+    background-color:rgba(128, 128, 128, 0.596) !important;
+    padding:30PX 45PX; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 50px;
+}
+table, th, td {
+    border-right: 1px solid black !important;
+    border-bottom:1px solid black !important ;
+    background-color: rgba(128, 128, 128, 0.405) !important;
+    color: white !important;
+  }
+thead{
+    border-bottom: 2px solid black !important;
+   
+}
+
+
+.table-list{
+    background-image: url(./images/pexels-photo-325229.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-page{
+    background-image: url(https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
